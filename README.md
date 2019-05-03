@@ -1,3 +1,26 @@
+# React State Example
+
+This is an example of pushing state through different components. Exercise completed from
+
+React - The Complete Guide -- Including Redux
+https://www.udemy.com/react-the-complete-guide-incl-redux
+
+
+## Objective
+- Create an input field (in App component) with a change listener which outputs the length of the entered text below it (e.g. in a paragraph).
+- Create a new component (=> ValidationComponent) which receives the text length as a prop.
+- Inside the ValidationComponent, either output "Text to short" or "Text long enough" depending on the text length (e.g. take 5 as a minimum length).
+- Creat another component (=> CharComponent) and style it as an inline box 
+(=> display: inline-block, padding: 16px, text-align: center, margin: 16px, border: 1px solid black).
+- Render a list of CharComponents where each CharComponent receives a different letter of the entered text (in the initial input field) as a prop.
+- When you click a CharComponent, it should be removed from the entered text. 
+
+## Outcome
+![](assignment2.gif)
+
+
+## Created using create-react-app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
