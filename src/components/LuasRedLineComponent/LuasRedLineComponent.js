@@ -39,7 +39,7 @@ class LuasRedLineComponent extends Component {
   }
 
   fetchTimes(stopAbbreviation) {
-    fetch(`http://luasforecasts.rpa.ie/xml/get.ashx?action=forecast&stop=${stopAbbreviation}&encrypt=false`)
+    fetch(`https://luasforecasts.rpa.ie/xml/get.ashx?action=forecast&stop=${stopAbbreviation}&encrypt=false`)
     .then(response => response.text())
     .then(data => (new window.DOMParser()).parseFromString(data, "text/xml"))
     .then(results => {
