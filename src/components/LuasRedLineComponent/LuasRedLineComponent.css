@@ -1,0 +1,13 @@
+.LuasRedLineComponent {
+    width: 50%;
+    min-height: 100vh;
+    background: lightcoral;
+}
+
+.LuasRedLineComponent__Select {
+    width: 50%;
+}
+
+.headline {
+    margin-bottom: 20px;
+}

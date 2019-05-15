@@ -1,23 +1,19 @@
-# React State Example
-
-This is an example of pushing state through different components. Exercise completed from
-
-React - The Complete Guide -- Including Redux
-https://www.udemy.com/react-the-complete-guide-incl-redux
-
+# LUAS Geo web app
+This is a hobby project I am working on. This web app displays the wait times for Luas stops using the  free Luas API. 
+I have plans to create this web app as an android app with Geo fencing. I will also be making an app for Wear OS. 
 
 ## Objective
-- Create an input field (in App component) with a change listener which outputs the length of the entered text below it (e.g. in a paragraph).
-- Create a new component (=> ValidationComponent) which receives the text length as a prop.
-- Inside the ValidationComponent, either output "Text to short" or "Text long enough" depending on the text length (e.g. take 5 as a minimum length).
-- Creat another component (=> CharComponent) and style it as an inline box 
-(=> display: inline-block, padding: 16px, text-align: center, margin: 16px, border: 1px solid black).
-- Render a list of CharComponents where each CharComponent receives a different letter of the entered text (in the initial input field) as a prop.
-- When you click a CharComponent, it should be removed from the entered text. 
+- Display wait times for Luas stops.
+- Create Android App.
+- Use Geo Fencing to show notifications when near stop. 
 
-## Outcome
-![](assignment2.gif)
+## Outcome so far
+![](luasgeo3.gif)
 
+
+## Yet to do
+- Create Android App.
+- Use Geo Fencing to show notifications when near stop.
 
 ## Created using create-react-app
 

@@ -1,0 +1,19 @@
+.LuasGreenLineComponent {
+    width: 50%;
+    min-height: 100vh;
+    background: lightgreen;
+}
+
+.LuasGreenLineComponent__Select {
+    width: 90%;
+}
+
+/* .root {
+    width: 100%;
+    overflow: auto;
+  }
+
+.table {
+    width: 50px;
+    margin:auto;
+} */
